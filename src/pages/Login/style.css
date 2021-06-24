@@ -1,0 +1,47 @@
+body > #root > div {
+    height: 100vh;
+  }
+
+.containerboxlogin{
+    background-color: #f2f2f2;
+    width: 600px;
+    height: 350px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #cccccc;
+    box-shadow: 0 0 8px 3px #cccccc;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+    background-image: url(https://images.unsplash.com/photo-1534337621606-e3df5ee0e97f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.titlename{
+    color: #262626;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.titledes{
+    color: #808080;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
